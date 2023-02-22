@@ -14,6 +14,7 @@ section {
 }
 body {
   line-height: 1;
+  background-color: #ffb84c;
 }
 ol,
 ul {
@@ -37,7 +38,6 @@ table {
 
 * {
   font-family: "Roboto", sans-serif;
-  background-color: #ffb84c;
 }
 
 .subtitle {
@@ -151,8 +151,35 @@ a {
   font-weight: 600;
   margin-bottom: 20px;
   text-decoration: none;
+  padding: 1em 5em;
+  background: #ffb84c;
+  border: none;
+  border-radius: 0.5rem;
+  color: #444;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  box-shadow: -6px -6px 14px rgba(247, 195, 84, 0.7),
+    -6px -6px 10px rgba(239, 227, 167, 0.5),
+    6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15);
+}
+a:hover {
+  box-shadow: -2px -2px 6px rgba(247, 195, 84, 0.7),
+    -2px -2px 4px rgba(240, 232, 193, 0.5),
+    2px 2px 2px rgba(255, 255, 255, 0.05), 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+a:active {
+  box-shadow: inset -2px -2px 6px rgba(247, 195, 84, 0.7),
+    inset -2px -2px 4px rgba(240, 232, 193, 0.5),
+    inset 2px 2px 2px rgba(255, 255, 255, 0.075),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .links {
-    margin-bottom: 20px
+  display: flex;
+  justify-content: space-between;
 }
