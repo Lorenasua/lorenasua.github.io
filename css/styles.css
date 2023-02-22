@@ -1,0 +1,158 @@
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffb84c;
+}
+
+.subtitle {
+  color: black;
+  font-size: 5vw;
+  margin-left: 50px;
+  margin-top: 0;
+}
+.title {
+  font-size: 10vw;
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.content-text {
+  margin: 50px;
+}
+
+.box-content {
+  max-width: 100%;
+}
+
+.friends {
+  display: block;
+}
+
+@media screen and (min-width: 380px) {
+  .img-lore {
+    width: 48%;
+    height: auto;
+    right: 100px;
+    bottom: 0px;
+    right: 45px;
+    position: absolute;
+    border-style: solid;
+    border-radius: 40%;
+  }
+}
+
+@media screen and (max-width: 442px) {
+  .img-lore {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 442px) {
+  .img-lore {
+    width: 40%;
+    position: static;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .box-content {
+    max-width: 70%;
+  }
+  .friends {
+    display: flex;
+  }
+  .img-lore {
+    width: 25%;
+    height: auto;
+    right: 45px;
+    position: absolute;
+    bottom: 180px;
+    top: 200px;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  .img-lore {
+    width: 20%;
+    right: 50px;
+    /* bottom: 160px; */
+    top: 200px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .img-lore {
+    width: 20%;
+    right: 50px;
+    /* bottom: 100px; */
+    top: 300px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .box-content {
+    max-width: 70%;
+  }
+  .friends {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .img-lore {
+    width: 20%;
+    height: auto;
+    right: 90px;
+    bottom: 0px;
+    top: 300px;
+  }
+}
+
+a {
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.links {
+    margin-bottom: 20px
+}
